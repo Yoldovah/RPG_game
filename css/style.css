@@ -1,5 +1,6 @@
 body {
   background-image: url('../img/zelda.png');
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
