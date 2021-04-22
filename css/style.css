@@ -1,0 +1,61 @@
+body {
+  background-image: url('../img/zelda.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+
+}
+h1{
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+.player {
+  background-image: url('../img/sprite.png');
+  background-size: 91%;
+}
+.player--right{
+  transform: rotate(0deg);
+  background-position: 2px 144px;
+}
+.player--left {
+  /* transform: rotate(180deg); */
+  background-position: 5px 218px;
+}
+.player--up {
+  /* transform: rotate(-90deg); */
+  background-position: 2px 72px;
+}
+.player--down {
+  /* transform: rotate(90deg); */
+  background-repeat: no-repeat;
+}
+#board {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+.cell {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 70px;
+  height: 70px;
+  background:rgba(0, rgb(7, 138, 7), 0, 0.2);
+}
+.targetCell {
+  background-image: url(../img/pixlr-bg-result.png);
+  background-position: 0px 100px;
+  background-size: 170%;
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.win{
+  background-position: -50px 100px;
+}
